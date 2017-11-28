@@ -8,7 +8,7 @@ import nl.websystique.ovsoftware.oldenzaal.testprototypes.junit.configuration.Jp
 
 
 @Import(JpaConfiguration.class)
-@SpringBootApplication(scanBasePackages={"com.websystique.junit"})// same as @Configuration @EnableAutoConfiguration @ComponentScan
+@SpringBootApplication(scanBasePackages={"nl.websystique.ovsoftware.oldenzaal.testprototypes.junit"})// same as @Configuration @EnableAutoConfiguration @ComponentScan
 public class SpringBootCRUDApp {
 
 	public static void main(String[] args) {
