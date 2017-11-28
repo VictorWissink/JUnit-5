@@ -1,7 +1,7 @@
-package com.websystique.springboot.service;
+package nl.websystique.ovsoftware.oldenzaal.testprototypes.junit.service;
 
 
-import com.websystique.springboot.model.User;
+import nl.websystique.ovsoftware.oldenzaal.testprototypes.junit.model.User;
 
 import java.util.List;
 

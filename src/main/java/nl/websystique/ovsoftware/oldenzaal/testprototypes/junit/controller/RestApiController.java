@@ -1,7 +1,10 @@
-package com.websystique.springboot.controller;
+package nl.websystique.ovsoftware.oldenzaal.testprototypes.junit.controller;
 
 import java.util.List;
 
+import nl.websystique.ovsoftware.oldenzaal.testprototypes.junit.model.User;
+import nl.websystique.ovsoftware.oldenzaal.testprototypes.junit.service.UserService;
+import nl.websystique.ovsoftware.oldenzaal.testprototypes.junit.util.CustomErrorType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,10 +17,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
-
-import com.websystique.springboot.model.User;
-import com.websystique.springboot.service.UserService;
-import com.websystique.springboot.util.CustomErrorType;
 
 @RestController
 @RequestMapping("/api")
@@ -48,7 +47,7 @@ public class RestApiController {
 		User user = userService.findById(id);
 		if (user == null) {
 			logger.error("User with id {} not found.", id);
-			return new ResponseEntity(new CustomErrorType("User with id " + id 
+			return new ResponseEntity(new CustomErrorType("User with id " + id
 					+ " not found"), HttpStatus.NOT_FOUND);
 		}
 		return new ResponseEntity<User>(user, HttpStatus.OK);

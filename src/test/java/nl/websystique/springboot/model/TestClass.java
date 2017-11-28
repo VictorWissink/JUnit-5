@@ -1,9 +1,8 @@
-package com.websystique.springboot.model;
+package nl.websystique.springboot.model;
 
+import nl.websystique.ovsoftware.oldenzaal.testprototypes.junit.model.User;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.function.Executable;
 
 import javax.naming.CannotProceedException;
 

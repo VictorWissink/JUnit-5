@@ -1,4 +1,4 @@
-package com.websystique.springboot.model;
+package nl.websystique.ovsoftware.oldenzaal.testprototypes.junit.model;
 
 import org.hibernate.validator.constraints.NotEmpty;
 

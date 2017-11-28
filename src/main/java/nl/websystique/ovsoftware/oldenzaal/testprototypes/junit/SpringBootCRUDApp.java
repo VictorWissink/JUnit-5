@@ -1,14 +1,14 @@
-package com.websystique.springboot;
+package nl.websystique.ovsoftware.oldenzaal.testprototypes.junit;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;
 
-import com.websystique.springboot.configuration.JpaConfiguration;
+import nl.websystique.ovsoftware.oldenzaal.testprototypes.junit.configuration.JpaConfiguration;
 
 
 @Import(JpaConfiguration.class)
-@SpringBootApplication(scanBasePackages={"com.websystique.springboot"})// same as @Configuration @EnableAutoConfiguration @ComponentScan
+@SpringBootApplication(scanBasePackages={"com.websystique.junit"})// same as @Configuration @EnableAutoConfiguration @ComponentScan
 public class SpringBootCRUDApp {
 
 	public static void main(String[] args) {

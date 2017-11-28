@@ -1,6 +1,6 @@
-package com.websystique.springboot.repositories;
+package nl.websystique.ovsoftware.oldenzaal.testprototypes.junit.repositories;
 
-import com.websystique.springboot.model.User;
+import nl.websystique.ovsoftware.oldenzaal.testprototypes.junit.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

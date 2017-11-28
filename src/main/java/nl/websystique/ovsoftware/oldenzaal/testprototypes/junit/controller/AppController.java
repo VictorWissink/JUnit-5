@@ -1,4 +1,4 @@
-package com.websystique.springboot.controller;
+package nl.websystique.ovsoftware.oldenzaal.testprototypes.junit.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

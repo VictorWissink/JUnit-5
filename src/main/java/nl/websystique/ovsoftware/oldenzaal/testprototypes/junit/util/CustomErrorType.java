@@ -1,4 +1,4 @@
-package com.websystique.springboot.util;
+package nl.websystique.ovsoftware.oldenzaal.testprototypes.junit.util;
 
 
 public class CustomErrorType {
