@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>nl.websystique.ovsoftware.oldenzaal.testprototypes.junit</groupId>
+	<groupId>nl.ovsoftware.oldenzaal.testprototypes.junit</groupId>
 	<artifactId>SpringBootCRUDApplicationExample</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
@@ -12,7 +12,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.8.RELEASE</version>
+		<version>1.5.9.RELEASE</version>
 	</parent>
 
 	<properties>
@@ -63,6 +63,14 @@
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-api</artifactId>
 			<version>5.0.1</version>
+		</dependency>
+
+		<!--Spring boot starter test for injection-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<version>1.5.9.RELEASE</version>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 	<build>
