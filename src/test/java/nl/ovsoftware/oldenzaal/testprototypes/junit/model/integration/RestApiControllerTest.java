@@ -23,6 +23,8 @@
 //
 //@RunWith(SpringRunner.class)
 //@WebMvcTest
+
+// // this class is commented out because of development isn't focused on integration tests for now
 //public class RestApiControllerTest
 //{
 //
