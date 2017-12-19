@@ -1,0 +1,5 @@
+||||||||Exception: Optional[org.opentest4j.TestAbortedException: Assumption failed: assumption is not true] .    Annotated with: Optional[public void nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass.testAdd_OnlyOnFriday()]   |||||||||||||||||
+||||||||Exception: Optional.empty .    Annotated with: Optional[public void nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass.testAdd_OnlyOnFriday_WithLambda()]   |||||||||||||||||
+||||||||Exception: Optional.empty .    Annotated with: Optional[public void nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass.assertExceptionTest()]   |||||||||||||||||
+||||||||Exception: Optional[java.lang.NullPointerException] .    Annotated with: Optional[public void nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass.toStringTest()]   |||||||||||||||||
+||||||||Exception: Optional.empty .    Annotated with: Optional[public void nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass.gettersTest()]   |||||||||||||||||

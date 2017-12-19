@@ -95,6 +95,13 @@
 			<!--<version>2.20.1</version>-->
 		<!--</dependency>-->
 
+		<!-- Logging dependancy -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.10.0</version>
+		</dependency>
+
 
 	</dependencies>
 	<build>
@@ -117,13 +124,14 @@
 					</includes>
 					<properties>
 						<!-- <includeTags>fast</includeTags> -->
-						<excludeTags>slow</excludeTags>
+						<!--<excludeTags>slow</excludeTags>-->
 						<!--
 						<configurationParameters>
 							junit.jupiter.conditions.deactivate = *
 						</configurationParameters>
 						-->
 					</properties>
+					<redirectTestOutputToFile>true</redirectTestOutputToFile>
 				</configuration>
 				<dependencies>
 					<dependency>
@@ -133,6 +141,9 @@
 					</dependency>
 				</dependencies>
 			</plugin>
+
+
+
 
 		</plugins>
 	</build>
