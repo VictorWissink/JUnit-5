@@ -21,7 +21,8 @@ public class TestRunExtension implements AfterTestExecutionCallback {
 
         System.out.println("||||||||Exception: " + trace + " .    Annotated with: " + requirement.toString() + "   |||||||||||||||||");
 
-
+        Method method = extensionContext.getTestMethod().get();
+        System.out.println("annotations: " + method.getDeclaredAnnotations()[2].toString());
 
 
     }

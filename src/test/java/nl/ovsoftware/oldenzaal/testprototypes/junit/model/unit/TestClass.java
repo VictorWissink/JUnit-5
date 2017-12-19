@@ -43,7 +43,7 @@ public class TestClass {
 
     @Test
     @DisplayName("Testing the getters of User")
-    @Requirement(RQ = "CBM44")
+    @Requirement(RQ = "CBM44-2B")
     public void gettersTest() {
         int age = 32;
         double salary = 23423;
@@ -69,7 +69,7 @@ public class TestClass {
 
     @Test
     @DisplayName("Testing ")
-    @Requirement(RQ = "CBM43")
+    @Requirement(RQ = "CBM43-4C")
     public void assertExceptionTest() {
 
         User user = new User();
@@ -83,7 +83,7 @@ public class TestClass {
 
     @Test
     @DisplayName("This test is only run on Fridays, otherwise it's skipped")
-    @Requirement(RQ = "CBM46")
+    @Requirement(RQ = "CBM46-2A")
     public void testAdd_OnlyOnFriday() {
         LocalDateTime ldt = LocalDateTime.now();
         assumeTrue(ldt.getDayOfWeek().getValue() == 5);
@@ -106,7 +106,7 @@ public class TestClass {
 
     @Test
     @DisplayName("This test is only failed on Fridays (with lambda)")
-    @Requirement(RQ = "CBM49")
+    @Requirement(RQ = "CBM49-1A")
     public void testAdd_OnlyOnFriday_WithLambda() {
         LocalDateTime ldt = LocalDateTime.now();
         assumingThat(ldt.getDayOfWeek().getValue() == 5,

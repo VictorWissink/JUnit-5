@@ -1,5 +1,10 @@
 ||||||||Exception: Optional[org.opentest4j.TestAbortedException: Assumption failed: assumption is not true] .    Annotated with: Optional[public void nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass.testAdd_OnlyOnFriday()]   |||||||||||||||||
+annotations: @nl.ovsoftware.oldenzaal.testprototypes.junit.model.Requirement(RQ=[CBM46-2A])
 ||||||||Exception: Optional.empty .    Annotated with: Optional[public void nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass.testAdd_OnlyOnFriday_WithLambda()]   |||||||||||||||||
+annotations: @nl.ovsoftware.oldenzaal.testprototypes.junit.model.Requirement(RQ=[CBM49-1A])
 ||||||||Exception: Optional.empty .    Annotated with: Optional[public void nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass.assertExceptionTest()]   |||||||||||||||||
+annotations: @nl.ovsoftware.oldenzaal.testprototypes.junit.model.Requirement(RQ=[CBM43-4C])
 ||||||||Exception: Optional[java.lang.NullPointerException] .    Annotated with: Optional[public void nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass.toStringTest()]   |||||||||||||||||
+annotations: @nl.ovsoftware.oldenzaal.testprototypes.junit.model.Requirement(RQ=[CBM43-1A])
 ||||||||Exception: Optional.empty .    Annotated with: Optional[public void nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass.gettersTest()]   |||||||||||||||||
+annotations: @nl.ovsoftware.oldenzaal.testprototypes.junit.model.Requirement(RQ=[CBM44-2B])

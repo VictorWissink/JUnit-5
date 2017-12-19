@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass" time="0.017" tests="5" errors="1" skipped="1" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass" time="0.022" tests="5" errors="1" skipped="1" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
-    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
+    <property name="java.vm.version" value="25.151-b12"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\Data\VWissink\Documents\Framework Tries\BaselineProjectjUnit\JUnit-5"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\victo\Documents\git\JUnit-5"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="user.script" value=""/>
-    <property name="user.country" value="US"/>
+    <property name="user.country" value="NL"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\Data\VWissink\Documents\Framework Tries\BaselineProjectjUnit\JUnit-5"/>
-    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="user.dir" value="C:\Users\victo\Documents\git\JUnit-5"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\VWissink\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\Users\victo\AppData\Local\Temp\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="D:\Data\VWissink\Documents\apache-maven-3.5.2\bin\..\bin\m2.conf"/>
+    <property name="classworlds.conf" value="C:\Users\victo\Documents\mvn\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files\Java\jdk1.7.0_80;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files (x86)\Brackets\command;C:\PROGRA~2\Groovy\GROOVY~1.0\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\VWissink\AppData\Local\Programs\Git\cmd;C:\Users\VWissink\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\VWissink\AppData\Local\Programs\Python\Python36-32\;C:\Users\VWissink\AppData\Local\Microsoft\WindowsApps;C:\Users\VWissink\AppData\Local\Programs\Git\cmd;C:\Users\VWissink\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_144\bin;D:\Data\VWissink\Documents\apache-maven-3.5.2\bin;C:\Users\VWissink\AppData\Local\atom\bin;."/>
-    <property name="maven.conf" value="D:\Data\VWissink\Documents\apache-maven-3.5.2\bin\../conf"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_151;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\victo\Documents\mvn\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Skype\Phone\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Calibre2\;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Users\victo\Documents\chromedriver;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\victo\AppData\Local\Microsoft\WindowsApps;C:\Users\victo\AppData\Local\atom\bin;C:\Users\victo\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Users\victo\Documents\mvn\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="D:\Data\VWissink\Documents\apache-maven-3.5.2\bin\..\lib\jansi-native"/>
-    <property name="user.home" value="C:\Users\VWissink"/>
+    <property name="library.jansi.path" value="C:\Users\victo\Documents\mvn\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\victo"/>
     <property name="user.timezone" value="Europe/Berlin"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="user.name" value="VWissink"/>
-    <property name="java.class.path" value="D:\Data\VWissink\Documents\apache-maven-3.5.2\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="user.name" value="victo"/>
+    <property name="java.class.path" value="C:\Users\victo\Documents\mvn\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="en"/>
+    <property name="user.language" value="nl"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_144"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
     <property name="sun.stderr.encoding" value="cp850"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="D:\Data\VWissink\Documents\apache-maven-3.5.2\bin\.."/>
+    <property name="maven.home" value="C:\Users\victo\Documents\mvn\bin\.."/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -66,19 +66,21 @@
   </properties>
   <testcase name="testAdd_OnlyOnFriday" classname="nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass" time="0">
     <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
-	at nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass.testAdd_OnlyOnFriday(TestClass.java:94)
+	at nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass.testAdd_OnlyOnFriday(TestClass.java:89)
 </skipped>
     <system-out><![CDATA[||||||||Exception: Optional[org.opentest4j.TestAbortedException: Assumption failed: assumption is not true] .    Annotated with: Optional[public void nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass.testAdd_OnlyOnFriday()]   |||||||||||||||||
+annotations: @nl.ovsoftware.oldenzaal.testprototypes.junit.model.Requirement(RQ=[CBM46-2A])
 ]]></system-out>
   </testcase>
-  <testcase name="testAdd_OnlyOnFriday_WithLambda" classname="nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass" time="0"/>
-  <testcase name="assertExceptionTest" classname="nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass" time="0.001"/>
-  <testcase name="toStringTest" classname="nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass" time="0.002">
+  <testcase name="testAdd_OnlyOnFriday_WithLambda" classname="nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass" time="0.001"/>
+  <testcase name="assertExceptionTest" classname="nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass" time="0.002"/>
+  <testcase name="toStringTest" classname="nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass" time="0.005">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass.toStringTest(TestClass.java:43)
+	at nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass.toStringTest(TestClass.java:41)
 </error>
     <system-out><![CDATA[||||||||Exception: Optional[java.lang.NullPointerException] .    Annotated with: Optional[public void nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass.toStringTest()]   |||||||||||||||||
+annotations: @nl.ovsoftware.oldenzaal.testprototypes.junit.model.Requirement(RQ=[CBM43-1A])
 ]]></system-out>
   </testcase>
-  <testcase name="gettersTest" classname="nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass" time="0.009"/>
+  <testcase name="gettersTest" classname="nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass" time="0.006"/>
 </testsuite>
