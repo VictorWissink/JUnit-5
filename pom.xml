@@ -78,6 +78,14 @@
 			<version>5.1.0-M1</version>
 		</dependency>
 
+
+		<!--logging testrequirements jar-->
+		<dependency>
+			<groupId>ovsoftware</groupId>
+			<artifactId>nl.ovsoftware.oldenzaal</artifactId>
+			<version>1.0</version>
+		</dependency>
+
 		<!--Spring boot starter test for injection-->
 		<!--<dependency>-->
 			<!--<groupId>org.springframework.boot</groupId>-->

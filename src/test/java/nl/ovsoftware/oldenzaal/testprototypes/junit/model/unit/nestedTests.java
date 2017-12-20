@@ -1,6 +1,6 @@
 package nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit;
 
-import nl.ovsoftware.oldenzaal.testprototypes.junit.model.TestRunExtension;
+import nl.ovsoftware.oldenzaal.testreporter.ReporterExtension;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 @Nested
 @DisplayName("A stack for nesting")
-@ExtendWith(TestRunExtension.class)
+@ExtendWith(ReporterExtension.class)
 public class nestedTests {
     Stack<Object> stack;
 

@@ -45,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -68,7 +68,7 @@
   <testcase name="throwsExceptionWhenPeeked" classname="nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.nestedTests$WhenNew" time="0"/>
   <testcase name="throwsExceptionWhenPopped" classname="nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.nestedTests$WhenNew" time="0"/>
   <testcase name="isEmpty" classname="nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.nestedTests$WhenNew" time="0"/>
-  <testcase name="returnElementWhenPeeked" classname="nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.nestedTests$WhenNew$AfterPushing" time="0"/>
+  <testcase name="returnElementWhenPeeked" classname="nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.nestedTests$WhenNew$AfterPushing" time="0.001"/>
   <testcase name="returnElementWhenPopped" classname="nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.nestedTests$WhenNew$AfterPushing" time="0"/>
-  <testcase name="isNotEmpty" classname="nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.nestedTests$WhenNew$AfterPushing" time="0.001"/>
+  <testcase name="isNotEmpty" classname="nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.nestedTests$WhenNew$AfterPushing" time="0"/>
 </testsuite>

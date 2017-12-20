@@ -5,7 +5,7 @@ org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
 	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:120)
 	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:69)
 	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:59)
-	at nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass.testAdd_OnlyOnFriday(TestClass.java:89)
+	at nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass.testAdd_OnlyOnFriday(TestClass.java:84)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -59,17 +59,12 @@ org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 </exception>
-<req>CBM46-2A</req>
 </test>
 <test>
-<req>CBM49-1A</req>
 </test>
 <test>
-<req>CBM43-4C</req>
 </test>
 <test>
-<req>CBM43-1A</req>
 </test>
 <test>
-<req>CBM44-2B</req>
 </test>

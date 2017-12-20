@@ -1,13 +1,12 @@
 package nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit;
 
-import nl.ovsoftware.oldenzaal.testprototypes.junit.model.Requirement;
-import nl.ovsoftware.oldenzaal.testprototypes.junit.model.TestRunExtension;
 import nl.ovsoftware.oldenzaal.testprototypes.junit.model.User;
+import nl.ovsoftware.oldenzaal.testreporter.ReporterExtension;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-
 import javax.naming.CannotProceedException;
+
 
 import java.time.LocalDateTime;
 
@@ -16,12 +15,11 @@ import static org.junit.jupiter.api.Assumptions.assumeTrue;
 import static org.junit.jupiter.api.Assumptions.assumingThat;
 
 @DisplayName("jUnit 5 example testcases")
-@ExtendWith(TestRunExtension.class)
+@ExtendWith(ReporterExtension.class)
 public class TestClass {
 
     @Test
     @DisplayName("testing the toString() method of User")
-    @Requirement(RQ = "CBM43-1A")
     public void toStringTest() {
         int age = 32;
         double salary = 23423;
@@ -43,7 +41,6 @@ public class TestClass {
 
     @Test
     @DisplayName("Testing the getters of User")
-    @Requirement(RQ = "CBM44-2B")
     public void gettersTest() {
         int age = 32;
         double salary = 23423;
@@ -69,7 +66,6 @@ public class TestClass {
 
     @Test
     @DisplayName("Testing ")
-    @Requirement(RQ = "CBM43-4C")
     public void assertExceptionTest() {
 
         User user = new User();
@@ -83,7 +79,6 @@ public class TestClass {
 
     @Test
     @DisplayName("This test is only run on Fridays, otherwise it's skipped")
-    @Requirement(RQ = "CBM46-2A")
     public void testAdd_OnlyOnFriday() {
         LocalDateTime ldt = LocalDateTime.now();
         assumeTrue(ldt.getDayOfWeek().getValue() == 5);
@@ -106,7 +101,6 @@ public class TestClass {
 
     @Test
     @DisplayName("This test is only failed on Fridays (with lambda)")
-    @Requirement(RQ = "CBM49-1A")
     public void testAdd_OnlyOnFriday_WithLambda() {
         LocalDateTime ldt = LocalDateTime.now();
         assumingThat(ldt.getDayOfWeek().getValue() == 5,
