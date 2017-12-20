@@ -38,7 +38,7 @@ public class TestClass {
                 + ", salary=" + salary + "]";
 
         assertEquals(expected, user.toString());
-        throw new NullPointerException();
+//        throw new NullPointerException();
     }
 
     @Test

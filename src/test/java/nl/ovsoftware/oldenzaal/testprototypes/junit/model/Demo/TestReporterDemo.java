@@ -17,7 +17,7 @@ class TestReporterDemo {
         HashMap<String, String> values = new HashMap<>();
         values.put("user name", "dk38");
         values.put("award year", "1974");
-        System.out.println("maak eens een file aan dan");
+//        System.out.println("maak eens een file aan dan");
         testReporter.publishEntry(values);
     }
 
