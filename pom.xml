@@ -79,12 +79,7 @@
 		</dependency>
 
 
-		<!--logging testrequirements jar-->
-		<dependency>
-			<groupId>ovsoftware</groupId>
-			<artifactId>nl.ovsoftware.oldenzaal</artifactId>
-			<version>1.0</version>
-		</dependency>
+
 
 		<!--Spring boot starter test for injection-->
 		<!--<dependency>-->
@@ -108,6 +103,15 @@
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-core</artifactId>
 			<version>2.10.0</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>ovsoftware</groupId>
+			<artifactId>nl.ovsoftware.oldenzaal</artifactId>
+			<version>1.0</version>
+			<systemPath>${project.basedir}/dependencies/TestReporter.jar</systemPath>
+			<scope>system</scope>
 		</dependency>
 
 
@@ -149,6 +153,30 @@
 					</dependency>
 				</dependencies>
 			</plugin>
+
+			<!--&lt;!&ndash;needed for the logging of requirements&ndash;&gt;-->
+			<!--<plugin>-->
+				<!--<groupId>org.apache.maven.plugins</groupId>-->
+				<!--<artifactId>maven-install-plugin</artifactId>-->
+				<!--<version>2.5.2</version>-->
+				<!--<configuration>-->
+					<!--<groupId>nl.ovsoftware</groupId>-->
+					<!--<artifactId>nl.ovsoftware.oldenzaal.testreporter</artifactId>-->
+					<!--<version>1.0</version>-->
+					<!--<packaging>jar</packaging>-->
+					<!--<file>${basedir}/dependencies/TestReporter.jar</file>-->
+					<!--<generatePom>false</generatePom>-->
+				<!--</configuration>-->
+				<!--<executions>-->
+					<!--<execution>-->
+						<!--<id>install-jar-lib</id>-->
+						<!--<goals>-->
+							<!--<goal>install-file</goal>-->
+						<!--</goals>-->
+						<!--<phase>validate</phase>-->
+					<!--</execution>-->
+				<!--</executions>-->
+			<!--</plugin>-->
 
 
 
