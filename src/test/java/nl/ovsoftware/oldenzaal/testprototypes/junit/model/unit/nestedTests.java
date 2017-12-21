@@ -1,6 +1,7 @@
 package nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit;
 
 import nl.ovsoftware.oldenzaal.testreporter.ReporterExtension;
+import nl.ovsoftware.oldenzaal.testreporter.Requirement;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
@@ -70,6 +71,7 @@ public class nestedTests {
 
             @Test
             @DisplayName("returns the element when popped and is empty")
+            @Requirement(RQ = "hahaditisgeengoederequirement")
             void returnElementWhenPopped() {
                 assertEquals(anElement, stack.pop());
                 assertTrue(stack.isEmpty());

@@ -73,10 +73,10 @@ public class JpaConfiguration {
 	 * Entity Manager Factory setup.
 	 */
 	@Bean
-	public LocalContainerEntityManagerFactoryBean entityManagerFactory() throws NamingException {
+	public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
 		LocalContainerEntityManagerFactoryBean factoryBean = new LocalContainerEntityManagerFactoryBean();
 		factoryBean.setDataSource(dataSource());
-		factoryBean.setPackagesToScan(new String[] { "nl.ovsoftware.oldenzaal.testprototypes.junit.model" });
+		factoryBean.setPackagesToScan("nl.ovsoftware.oldenzaal.testprototypes.junit.model");
 		factoryBean.setJpaVendorAdapter(jpaVendorAdapter());
 		factoryBean.setJpaProperties(jpaProperties());
 		return factoryBean;

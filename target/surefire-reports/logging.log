@@ -1,4 +1,19 @@
 {
+},
+{
+},
+{
+},
+{
+},
+{
+},
+{
+"requirement" : "hahaditisgeengoederequirement"
+},
+{
+},
+{
 "requirement" : "CBM-2A"
 , "exception" : "org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
 	at org.junit.jupiter.api.Assumptions.throwTestAbortedException(Assumptions.java:245)
