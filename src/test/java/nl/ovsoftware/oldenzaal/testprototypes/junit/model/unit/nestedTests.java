@@ -30,24 +30,28 @@ public class nestedTests {
     class WhenNew {
 
         @BeforeEach
+        @Requirement(RQ = "CMB12-4A")
         void createNewStack() {
             stack = new Stack<>();
         }
 
         @Test
         @DisplayName("is empty")
+        @Requirement(RQ = "CMB1-41A")
         void isEmpty() {
             assertTrue(stack.isEmpty());
         }
 
         @Test
         @DisplayName("throws EmptyStackException when popped")
+        @Requirement(RQ = "CMB32-8A")
         void throwsExceptionWhenPopped() {
             assertThrows(EmptyStackException.class, () -> stack.pop());
         }
 
         @Test
         @DisplayName("throws EmptyStackException when peeked")
+        @Requirement(RQ = "CMB1-5A")
         void throwsExceptionWhenPeeked() {
             assertThrows(EmptyStackException.class, () -> stack.peek());
         }
@@ -65,13 +69,14 @@ public class nestedTests {
 
             @Test
             @DisplayName("it is no longer empty")
+            @Requirement(RQ = "CMB31-1B")
             void isNotEmpty() {
                 assertFalse(stack.isEmpty());
             }
 
             @Test
             @DisplayName("returns the element when popped and is empty")
-            @Requirement(RQ = "CMB-4A")
+            @Requirement(RQ = "CMB1-4A")
             void returnElementWhenPopped() {
                 assertEquals(anElement, stack.pop());
                 assertTrue(stack.isEmpty());
@@ -79,6 +84,7 @@ public class nestedTests {
 
             @Test
             @DisplayName("returns the element when peeked but remains not empty")
+            @Requirement(RQ = "CMB1-1A")
             void returnElementWhenPeeked() {
                 assertEquals(anElement, stack.peek());
                 assertFalse(stack.isEmpty());
