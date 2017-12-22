@@ -1,0 +1,20 @@
+11:21:09.205 [main] INFO  ReporterExtension - {
+11:21:09.207 [main] INFO  ReporterExtension - },
+11:21:09.214 [main] INFO  ReporterExtension - {
+11:21:09.215 [main] INFO  ReporterExtension - "requirement" : "CMB1-5A"
+11:21:09.216 [main] INFO  ReporterExtension - },
+11:21:09.217 [main] INFO  ReporterExtension - {
+11:21:09.217 [main] INFO  ReporterExtension - "requirement" : "CMB32-8A"
+11:21:09.217 [main] INFO  ReporterExtension - },
+11:21:09.219 [main] INFO  ReporterExtension - {
+11:21:09.219 [main] INFO  ReporterExtension - "requirement" : "CMB1-41A"
+11:21:09.219 [main] INFO  ReporterExtension - },
+11:21:09.225 [main] INFO  ReporterExtension - {
+11:21:09.225 [main] INFO  ReporterExtension - "requirement" : "CMB1-1A"
+11:21:09.225 [main] INFO  ReporterExtension - },
+11:21:09.226 [main] INFO  ReporterExtension - {
+11:21:09.226 [main] INFO  ReporterExtension - "requirement" : "CMB1-4A"
+11:21:09.226 [main] INFO  ReporterExtension - },
+11:21:09.227 [main] INFO  ReporterExtension - {
+11:21:09.227 [main] INFO  ReporterExtension - "requirement" : "CMB31-1B"
+11:21:09.227 [main] INFO  ReporterExtension - },
