@@ -1,4 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.037 sec - in nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec <<< FAILURE! - in nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass
+testAdd_OnlyOnFriday_WithLambda()  Time elapsed: 0.003 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: make the test fail on fridays
+	at nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass.lambda$testAdd_OnlyOnFriday_WithLambda$5(TestClass.java:113)
+	at nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass.testAdd_OnlyOnFriday_WithLambda(TestClass.java:111)
+

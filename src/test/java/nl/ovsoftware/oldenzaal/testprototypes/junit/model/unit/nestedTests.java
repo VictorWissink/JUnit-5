@@ -71,7 +71,7 @@ public class nestedTests {
 
             @Test
             @DisplayName("returns the element when popped and is empty")
-            @Requirement(RQ = "hahaditisgeengoederequirement")
+            @Requirement(RQ = "CMB-4A")
             void returnElementWhenPopped() {
                 assertEquals(anElement, stack.pop());
                 assertTrue(stack.isEmpty());
