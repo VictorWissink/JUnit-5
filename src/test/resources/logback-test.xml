@@ -10,13 +10,14 @@
 <configuration>
     <appender name="testreport" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <!--See also http://logback.qos.ch/manual/appenders.html#RollingFileAppender-->
-        <File>${JENKINS_HOME}/userContent/requirements.log</File>
+        <File>${WORKSPACE}/logs/reqiurements.log</File>
         <encoder>
             <pattern>%m%n</pattern>
         </encoder>
         <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
             <maxIndex>10</maxIndex>
-            <FileNamePattern>${JENKINS_HOME}/userContent/requirements.log.%i</FileNamePattern>
+            <!--<FileNamePattern>${JENKINS_HOME}/userContent/requirements.log.%i</FileNamePattern>-->
+            <FileNamePattern>${WORKSPACE}/logs/reqiurements.log.%i</FileNamePattern>
         </rollingPolicy>
         <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
             <MaxFileSize>100MB</MaxFileSize>
@@ -31,7 +32,7 @@
     <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
         <Target>System.out</Target>
         <encoder>
-            <pattern>%m%n</pattern>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
         </encoder>
     </appender>
 

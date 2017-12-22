@@ -1,9 +1,0 @@
-nl\ovsoftware\oldenzaal\testprototypes\junit\controller\AppController.class
-nl\ovsoftware\oldenzaal\testprototypes\junit\service\UserService.class
-nl\ovsoftware\oldenzaal\testprototypes\junit\util\CustomErrorType.class
-nl\ovsoftware\oldenzaal\testprototypes\junit\service\UserServiceImpl.class
-nl\ovsoftware\oldenzaal\testprototypes\junit\SpringBootCRUDApp.class
-nl\ovsoftware\oldenzaal\testprototypes\junit\configuration\JpaConfiguration.class
-nl\ovsoftware\oldenzaal\testprototypes\junit\controller\RestApiController.class
-nl\ovsoftware\oldenzaal\testprototypes\junit\repositories\UserRepository.class
-nl\ovsoftware\oldenzaal\testprototypes\junit\model\User.class
