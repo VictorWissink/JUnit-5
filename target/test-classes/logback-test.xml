@@ -8,28 +8,35 @@
 <!--    http://www.qos.ch/shop/products/professionalSupport         -->
 <!--                                                                -->
 <configuration>
-    <appender name="file" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <appender name="testreport" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <!--See also http://logback.qos.ch/manual/appenders.html#RollingFileAppender-->
-        <File>${user.dir}/logs/requirements.log</File>
+        <File>${JENKINS_HOME}/userContent/requirements.log</File>
         <encoder>
             <pattern>%m%n</pattern>
         </encoder>
         <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
             <maxIndex>10</maxIndex>
-            <FileNamePattern>${user.dir}/logs/requirements.log.%i</FileNamePattern>
+            <FileNamePattern>${JENKINS_HOME}/userContent/requirements.log.%i</FileNamePattern>
         </rollingPolicy>
         <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
             <MaxFileSize>100MB</MaxFileSize>
         </triggeringPolicy>
     </appender>
+
+    <logger name="ReporterExtension">
+        <appender-ref ref="testreport" />
+    </logger>
+
+
     <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
         <Target>System.out</Target>
         <encoder>
             <pattern>%m%n</pattern>
         </encoder>
     </appender>
+
+
     <root level="INFO">
-        <appender-ref ref="file"/>
-        <appender-ref ref="stdout"/>
+      <appender-ref ref="stdout"/>
     </root>
 </configuration>

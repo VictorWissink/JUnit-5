@@ -9,7 +9,7 @@
 {
 },
 {
-"requirement" : "hahaditisgeengoederequirement"
+"requirement" : "CMB-4A"
 },
 {
 },

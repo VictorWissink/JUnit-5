@@ -135,7 +135,7 @@
 },
 ]]></system-out>
   </testcase>
-  <testcase name="assertExceptionTest" classname="nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass" time="0"/>
+  <testcase name="assertExceptionTest" classname="nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass" time="0.001"/>
   <testcase name="toStringTest" classname="nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass" time="0.002"/>
   <testcase name="gettersTest" classname="nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass" time="0.004"/>
 </testsuite>
