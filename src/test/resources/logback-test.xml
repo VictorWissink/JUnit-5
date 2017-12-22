@@ -10,14 +10,14 @@
 <configuration>
     <appender name="testreport" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <!--See also http://logback.qos.ch/manual/appenders.html#RollingFileAppender-->
-        <File>${WORKSPACE}/logs/reqiurements.log</File>
+        <File>${WORKSPACE}/logs/requirements.log</File>
         <encoder>
             <pattern>%m%n</pattern>
         </encoder>
         <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
             <maxIndex>10</maxIndex>
             <!--<FileNamePattern>${JENKINS_HOME}/userContent/requirements.log.%i</FileNamePattern>-->
-            <FileNamePattern>${WORKSPACE}/logs/reqiurements.log.%i</FileNamePattern>
+            <FileNamePattern>${WORKSPACE}/logs/requirements.log.%i</FileNamePattern>
         </rollingPolicy>
         <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
             <MaxFileSize>100MB</MaxFileSize>
