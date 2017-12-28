@@ -1,15 +1,11 @@
-11:21:09.246 [main] INFO  ReporterExtension - {
-11:21:09.246 [main] INFO  ReporterExtension - "requirement" : "CBM-2A"
-11:21:09.246 [main] INFO  ReporterExtension - },
-11:21:09.249 [main] INFO  ReporterExtension - {
-11:21:09.249 [main] INFO  ReporterExtension - "requirement" : "CBM-2A"
-11:21:09.250 [main] INFO  ReporterExtension - , "exception" : "org.opentest4j.AssertionFailedError: make the test fail on fridays
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:48)
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:36)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:62)
-	at nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass.lambda$testAdd_OnlyOnFriday_WithLambda$5(TestClass.java:113)
-	at org.junit.jupiter.api.Assumptions.assumingThat(Assumptions.java:235)
-	at nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass.testAdd_OnlyOnFriday_WithLambda(TestClass.java:111)
+12:49:42.786 [main] INFO  ReporterExtension - {
+12:49:42.786 [main] INFO  ReporterExtension - "requirement" : "CBM-2A"
+12:49:42.787 [main] INFO  ReporterExtension - , "exception" : "org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at org.junit.jupiter.api.Assumptions.throwTestAbortedException(Assumptions.java:245)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:120)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:69)
+	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:59)
+	at nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass.testAdd_OnlyOnFriday(TestClass.java:88)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -63,12 +59,15 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 "
-11:21:09.251 [main] INFO  ReporterExtension - },
-11:21:09.259 [main] INFO  ReporterExtension - {
-11:21:09.259 [main] INFO  ReporterExtension - },
-11:21:09.262 [main] INFO  ReporterExtension - {
-11:21:09.262 [main] INFO  ReporterExtension - "requirement" : "CBM-2A"
-11:21:09.262 [main] INFO  ReporterExtension - },
-11:21:09.268 [main] INFO  ReporterExtension - {
-11:21:09.268 [main] INFO  ReporterExtension - "requirement" : "CBM-2A"
-11:21:09.268 [main] INFO  ReporterExtension - },
+12:49:42.788 [main] INFO  ReporterExtension - },
+12:49:42.799 [main] INFO  ReporterExtension - {
+12:49:42.800 [main] INFO  ReporterExtension - "requirement" : "CBM-2A"
+12:49:42.800 [main] INFO  ReporterExtension - },
+12:49:42.801 [main] INFO  ReporterExtension - {
+12:49:42.801 [main] INFO  ReporterExtension - },
+12:49:42.804 [main] INFO  ReporterExtension - {
+12:49:42.804 [main] INFO  ReporterExtension - "requirement" : "CBM-2A"
+12:49:42.804 [main] INFO  ReporterExtension - },
+12:49:42.816 [main] INFO  ReporterExtension - {
+12:49:42.816 [main] INFO  ReporterExtension - "requirement" : "CBM-2A"
+12:49:42.816 [main] INFO  ReporterExtension - },
