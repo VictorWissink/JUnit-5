@@ -10,7 +10,7 @@
 <configuration>
     <appender name="testreport" class="ch.qos.logback.core.FileAppender">
         <!--See also http://logback.qos.ch/manual/appenders.html#RollingFileAppender-->
-        <File>${WORKSPACE}/logs/requirements.log</File>
+        <File>${WORKSPACE}/logs/requirements.txt</File>
         <append>false</append>
         <encoder>
             <pattern>%m%n</pattern>
