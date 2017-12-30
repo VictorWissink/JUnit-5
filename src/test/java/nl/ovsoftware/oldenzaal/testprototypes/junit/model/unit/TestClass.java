@@ -21,7 +21,7 @@ public class TestClass {
 
     @Test
     @DisplayName("testing the toString() method of User")
-    @Requirement(RQ = "CBM-2A")
+    @Requirement(RQ = "CBM16-1A")
     public void toStringTest() {
         int age = 32;
         double salary = 23423;
@@ -43,7 +43,7 @@ public class TestClass {
 
     @Test
     @DisplayName("Testing the getters of User")
-    @Requirement(RQ = "CBM-2A")
+    @Requirement(RQ = "CBM-32")
     public void gettersTest() {
         int age = 32;
         double salary = 23423;
@@ -105,7 +105,7 @@ public class TestClass {
 
     @Test
     @DisplayName("This test is only failed on Fridays (with lambda)")
-    @Requirement(RQ = "CBM-2A")
+    @Requirement(RQ = "CBM-2B")
     public void testAdd_OnlyOnFriday_WithLambda() {
         LocalDateTime ldt = LocalDateTime.now();
         assumingThat(ldt.getDayOfWeek().getValue() == 5,
