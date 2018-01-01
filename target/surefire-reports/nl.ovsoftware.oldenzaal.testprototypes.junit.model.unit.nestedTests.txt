@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.nestedTests
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec - in nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.nestedTests
