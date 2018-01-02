@@ -105,7 +105,7 @@ public class TestClass {
 
     @Test
     @DisplayName("This test is only failed on Fridays (with lambda)")
-    @Requirement(RQ = "CBM-2B")
+    @Requirement(RQ = "CBM32-1A")
     public void testAdd_OnlyOnFriday_WithLambda() {
         LocalDateTime ldt = LocalDateTime.now();
         assumingThat(ldt.getDayOfWeek().getValue() == 5,
@@ -124,6 +124,8 @@ public class TestClass {
         user.setId(id);
 
         assertEquals(name, user.getName());
+        //laat test falen voor debugging
+        assertEquals(true, false);
 
     }
 
