@@ -43,7 +43,7 @@ public class TestClass {
 
     @Test
     @DisplayName("Testing the getters of User")
-    @Requirement(RQ = "CBM-32")
+    @Requirement(RQ = "CBM16-1F")
     public void gettersTest() {
         int age = 32;
         double salary = 23423;
@@ -69,6 +69,7 @@ public class TestClass {
 
     @Test
     @DisplayName("Testing ")
+    @Requirement(RQ = "CBM17-1C")
     public void assertExceptionTest() {
 
         User user = new User();
@@ -82,7 +83,7 @@ public class TestClass {
 
     @Test
     @DisplayName("This test is only run on Fridays, otherwise it's skipped")
-    @Requirement(RQ = "CBM-2A")
+    @Requirement(RQ = "CBM63-2A")
     public void testAdd_OnlyOnFriday() {
         LocalDateTime ldt = LocalDateTime.now();
         assumeTrue(ldt.getDayOfWeek().getValue() == 5);
@@ -99,7 +100,7 @@ public class TestClass {
 
         assertEquals(name, user.getName());
 
-
+        assertTrue(false);
 
     }
 
