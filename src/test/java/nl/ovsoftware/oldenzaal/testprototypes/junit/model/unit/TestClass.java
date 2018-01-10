@@ -73,7 +73,7 @@ public class TestClass {
 
     @Test
     @DisplayName("Testing ")
-    @Requirement(RQ = "CBM17-1C")
+    @Requirement(RQ = "CBM16-1A")
     public void assertExceptionTest() {
 
         User user = new User();
