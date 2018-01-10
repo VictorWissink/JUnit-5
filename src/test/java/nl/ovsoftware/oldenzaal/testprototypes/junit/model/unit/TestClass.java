@@ -63,7 +63,11 @@ public class TestClass {
                 () -> assertEquals(salary, user.getSalary(), "salary is not equal, expected: " + salary),
                 () -> assertEquals(name, user.getName(), "name is not equal, expected: " + name)
                 );
+
+
+        assertTrue(false);
     }
+
 
 
 
@@ -77,6 +81,8 @@ public class TestClass {
 
        //  assertThrows(CannotProceedException.class, () -> user.catchesException(1), "a message");
          assertThrows(CannotProceedException.class, () -> user.throwsException(0), "a message");
+
+        assertTrue(false);
 
 
     }
@@ -100,7 +106,6 @@ public class TestClass {
 
         assertEquals(name, user.getName());
 
-        assertTrue(false);
 
     }
 
