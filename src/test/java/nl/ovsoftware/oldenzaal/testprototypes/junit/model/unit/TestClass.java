@@ -45,7 +45,7 @@ public class TestClass {
 
     @Test
     @DisplayName("Testing the getters of User")
-    @Requirement(RQ = "CBM16-1F")
+    @Requirement(RQ = "CBM16-2A")
     public void gettersTest() {
         int age = 32;
         double salary = 23423;
