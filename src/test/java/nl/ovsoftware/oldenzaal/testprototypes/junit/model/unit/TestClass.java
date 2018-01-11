@@ -84,7 +84,7 @@ public class TestClass {
        //  assertThrows(CannotProceedException.class, () -> user.catchesException(1), "a message");
          assertThrows(CannotProceedException.class, () -> user.throwsException(0), "a message");
 
-        assertTrue(false);
+//        assertTrue(false);
 
 
     }
