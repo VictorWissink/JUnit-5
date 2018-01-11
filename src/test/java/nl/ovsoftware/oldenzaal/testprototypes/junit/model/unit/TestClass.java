@@ -39,6 +39,8 @@ public class TestClass {
 
         assertEquals(expected, user.toString());
 //        throw new NullPointerException();
+
+        assertTrue(false);
     }
 
     @Test
