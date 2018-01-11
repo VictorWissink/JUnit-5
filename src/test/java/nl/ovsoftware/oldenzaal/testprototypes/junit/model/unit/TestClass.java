@@ -75,7 +75,7 @@ public class TestClass {
 
     @Test
     @DisplayName("Testing ")
-    @Requirement(RQ = "CBM16-1A")
+    @Requirement(RQ = "CBM17-1A")
     public void assertExceptionTest() {
 
         User user = new User();
@@ -84,7 +84,7 @@ public class TestClass {
        //  assertThrows(CannotProceedException.class, () -> user.catchesException(1), "a message");
          assertThrows(CannotProceedException.class, () -> user.throwsException(0), "a message");
 
-//        assertTrue(false);
+        assertTrue(false);
 
 
     }
