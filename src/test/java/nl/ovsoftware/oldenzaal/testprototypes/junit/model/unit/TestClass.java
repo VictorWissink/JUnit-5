@@ -107,7 +107,7 @@ public class TestClass {
         user.setId(id);
 
 //        assertEquals(name, user.getName());
-
+        assertTrue(false);
 
     }
 
