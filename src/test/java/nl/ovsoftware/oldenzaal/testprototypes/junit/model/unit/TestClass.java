@@ -21,7 +21,7 @@ public class TestClass {
 
     @Test
     @DisplayName("testing the toString() method of User")
-    @Requirement(RQ = "CBM16-1A")
+    @Requirement(RQ = "CBM16-2A")
     public void toStringTest() {
         int age = 32;
         double salary = 23423;
