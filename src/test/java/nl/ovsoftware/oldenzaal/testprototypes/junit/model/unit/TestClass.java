@@ -91,7 +91,7 @@ public class TestClass {
 
     @Test
     @DisplayName("This test is only run on Fridays, otherwise it's skipped")
-    @Requirement(RQ = "CBM63-2A")
+    @Requirement(RQ = "CBM63-1A")
     public void testAdd_OnlyOnFriday() {
         LocalDateTime ldt = LocalDateTime.now();
         assumeTrue(ldt.getDayOfWeek().getValue() == 5);
