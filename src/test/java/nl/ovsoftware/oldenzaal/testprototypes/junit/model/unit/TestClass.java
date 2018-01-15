@@ -40,7 +40,7 @@ public class TestClass {
         assertEquals(expected, user.toString());
 //        throw new NullPointerException();
 
-        assertTrue(false);
+//        assertTrue(false);
     }
 
     @Test
@@ -107,7 +107,7 @@ public class TestClass {
         user.setId(id);
 
 //        assertEquals(name, user.getName());
-        assertTrue(false);
+//        assertTrue(false);
 
     }
 

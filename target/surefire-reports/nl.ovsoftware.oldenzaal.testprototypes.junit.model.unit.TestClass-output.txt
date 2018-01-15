@@ -1,11 +1,11 @@
-23:52:41.361 [main] INFO  ReporterExtension - {
-23:52:41.361 [main] INFO  ReporterExtension - "requirement" : "CBM63-2A"
-23:52:41.364 [main] INFO  ReporterExtension - , "exception" : "org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+11:03:37.306 [main] INFO  ReporterExtension - {
+11:03:37.306 [main] INFO  ReporterExtension - "requirement" : "CBM63-1A"
+11:03:37.307 [main] INFO  ReporterExtension - , "exception" : "org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
 	at org.junit.jupiter.api.Assumptions.throwTestAbortedException(Assumptions.java:245)
 	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:120)
 	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:69)
 	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:59)
-	at nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass.testAdd_OnlyOnFriday(TestClass.java:89)
+	at nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass.testAdd_OnlyOnFriday(TestClass.java:97)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -59,16 +59,22 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 "
-23:52:41.366 [main] INFO  ReporterExtension - },
-23:52:41.380 [main] INFO  ReporterExtension - {
-23:52:41.380 [main] INFO  ReporterExtension - "requirement" : "CBM32-1A"
-23:52:41.381 [main] INFO  ReporterExtension - , "exception" : "org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:52)
-	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:177)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:172)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:163)
-	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:486)
-	at nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass.testAdd_OnlyOnFriday_WithLambda(TestClass.java:129)
+11:03:37.309 [main] INFO  ReporterExtension - },
+11:03:37.322 [main] INFO  ReporterExtension - {
+11:03:37.322 [main] INFO  ReporterExtension - "requirement" : "CBM32-1A"
+11:03:37.322 [main] INFO  ReporterExtension - },
+11:03:37.324 [main] INFO  ReporterExtension - {
+11:03:37.324 [main] INFO  ReporterExtension - "requirement" : "CBM17-1A"
+11:03:37.324 [main] INFO  ReporterExtension - },
+11:03:37.329 [main] INFO  ReporterExtension - {
+11:03:37.329 [main] INFO  ReporterExtension - "requirement" : "CBM16-2A"
+11:03:37.330 [main] INFO  ReporterExtension - , "exception" : "org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:48)
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:36)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:56)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:115)
+	at nl.ovsoftware.oldenzaal.testprototypes.junit.model.unit.TestClass.toStringTest(TestClass.java:43)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -122,13 +128,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 "
-23:52:41.388 [main] INFO  ReporterExtension - },
-23:52:41.391 [main] INFO  ReporterExtension - {
-23:52:41.391 [main] INFO  ReporterExtension - "requirement" : "CBM17-1C"
-23:52:41.391 [main] INFO  ReporterExtension - },
-23:52:41.394 [main] INFO  ReporterExtension - {
-23:52:41.394 [main] INFO  ReporterExtension - "requirement" : "CBM16-1A"
-23:52:41.394 [main] INFO  ReporterExtension - },
-23:52:41.400 [main] INFO  ReporterExtension - {
-23:52:41.400 [main] INFO  ReporterExtension - "requirement" : "CBM16-1F"
-23:52:41.400 [main] INFO  ReporterExtension - },
+11:03:37.331 [main] INFO  ReporterExtension - },
+11:03:37.340 [main] INFO  ReporterExtension - {
+11:03:37.341 [main] INFO  ReporterExtension - "requirement" : "CBM16-2B"
+11:03:37.341 [main] INFO  ReporterExtension - },
